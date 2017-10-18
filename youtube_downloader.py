@@ -25,8 +25,8 @@ def download_video(url, filename, path):
 
 if __name__ == '__main__':
 	path = '/home/sagunsh/Desktop'
-	url = 'https://www.youtube.com/watch?v=QqWfZseQtoY'
-	filename = 'Tungnako Dhoon Ma (cover) by Prayatna Shrestha'
+	url = '<youtube video url>'
+	filename = 'Your filename.mp4'
 
 	download_video(url,filename,path)
 	print('\nDownload Successful')
